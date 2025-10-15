@@ -1,0 +1,18 @@
+# created by virtualenv automatically
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.pyc
+
+# Virtual env
+venv/
+.env/
+myvenv/
+.venv/
+
+# Pycharm
+.idea/
+
+# Byte-compiled / caches
+__pycache__/

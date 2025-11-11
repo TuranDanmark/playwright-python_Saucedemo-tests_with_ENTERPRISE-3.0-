@@ -3,7 +3,7 @@ from playwright.sync_api import expect
 class LoginPage:
     def __init__(self, page):
         self.page = page
-        self.username_input = "#username"
+        self.username_input = ("#username")
         self.password_input = "#password"
         self.submit_button = "button[type='submit']"
         self.flash = "#flash"

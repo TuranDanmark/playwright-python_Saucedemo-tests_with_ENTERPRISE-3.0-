@@ -1,0 +1,21 @@
+{
+  "base_url": "https://demoqa.com",
+  "forms_url": "https://demoqa.com/automation-practice-form",
+  "alerts_url": "https://demoqa.com/alerts",
+  "tables_url": "https://demoqa.com/webtables",
+  "dragdrop_url": "https://demoqa.com/droppable",
+
+  "valid_user": {
+    "first_name": "Turan",
+    "last_name": "QA",
+    "email": "turan.qa@example.com",
+    "age": 30,
+    "salary": 5000,
+    "department": "Testing"
+  },
+
+  "invalid_user": {
+    "email": "wrong-email",
+    "password": "123"
+  }
+}

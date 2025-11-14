@@ -1,5 +1,0 @@
-pytest
-pytest-html
-pytest-xdist
-playwright
-faker

@@ -1,0 +1,38 @@
+{"timestamp": "2025-11-14 19:26:21", "step": "Открываем страницу логина", "function": "goto", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:23", "step": "Вводим логин и пароль, кликаем 'Login'", "function": "login", "args": "('standard_user', 'secret_sauce')", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:24", "step": "Проверяем успешный вход", "function": "assert_login_success", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:24", "step": "Добавляем первый товар в корзину", "function": "add_first_item_to_cart", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:25", "step": "Проверяем, что товар добавлен в корзину", "function": "assert_cart_counter", "args": "('1',)", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:25", "step": "Переходим в корзину", "function": "open_cart", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:25", "step": "Проверяем, что в корзине есть товар", "function": "assert_cart_not_empty", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:25", "step": "Нажимаем Checkout", "function": "go_to_checkout", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:25", "step": "Заполняем форму покупателя", "function": "fill_user_info", "args": "('Turan', 'QA', '2200')", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:25", "step": "Завершаем покупку", "function": "finish_checkout", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:26:25", "step": "Проверяем успешное завершение покупки", "function": "assert_order_complete", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:05", "step": "Открываем страницу логина", "function": "goto", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:06", "step": "Вводим логин и пароль, кликаем 'Login'", "function": "login", "args": "('standard_user', 'secret_sauce')", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:07", "step": "Проверяем успешный вход", "function": "assert_login_success", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:07", "step": "Добавляем первый товар в корзину", "function": "add_first_item_to_cart", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:07", "step": "Проверяем, что товар добавлен в корзину", "function": "assert_cart_counter", "args": "('1',)", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:07", "step": "Переходим в корзину", "function": "open_cart", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:08", "step": "Проверяем, что в корзине есть товар", "function": "assert_cart_not_empty", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:08", "step": "Нажимаем Checkout", "function": "go_to_checkout", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:08", "step": "Заполняем форму покупателя", "function": "fill_user_info", "args": "('Turan', 'QA', '2200')", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:08", "step": "Завершаем покупку", "function": "finish_checkout", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:08", "step": "Проверяем успешное завершение покупки", "function": "assert_order_complete", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:43", "step": "Открываем страницу логина", "function": "goto", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:44", "step": "Вводим логин и пароль, кликаем 'Login'", "function": "login", "args": "('standard_user', 'secret_sauce')", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:45", "step": "Проверяем успешный вход", "function": "assert_login_success", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:45", "step": "Добавляем первый товар в корзину", "function": "add_first_item_to_cart", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:41:46", "step": "Проверяем, что товар добавлен в корзину", "function": "assert_cart_counter", "args": "('1000',)", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:02", "step": "Открываем страницу логина", "function": "goto", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:03", "step": "Вводим логин и пароль, кликаем 'Login'", "function": "login", "args": "('standard_user', 'secret_sauce')", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:03", "step": "Проверяем успешный вход", "function": "assert_login_success", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Добавляем первый товар в корзину", "function": "add_first_item_to_cart", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Проверяем, что товар добавлен в корзину", "function": "assert_cart_counter", "args": "('1',)", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Переходим в корзину", "function": "open_cart", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Проверяем, что в корзине есть товар", "function": "assert_cart_not_empty", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Нажимаем Checkout", "function": "go_to_checkout", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Заполняем форму покупателя", "function": "fill_user_info", "args": "('Turan', 'QA', '2200')", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Завершаем покупку", "function": "finish_checkout", "args": "()", "kwargs": {}}
+{"timestamp": "2025-11-14 19:43:04", "step": "Проверяем успешное завершение покупки", "function": "assert_order_complete", "args": "()", "kwargs": {}}
